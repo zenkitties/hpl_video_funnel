@@ -12,10 +12,11 @@ html, body {
   font: 18px "Open Sans", "Raleway", "Oswald"; }
 
 header {
-  height: 100px;
+  height: 200px;
   margin-bottom: 40px;
-  background-color: #ff7300;
-  border-bottom: 1px solid #f06c00; }
+  background: url(../img/hitting-performance-lab.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: #ff7300; }
 
 p {
   line-height: 1.5em; }
@@ -70,14 +71,14 @@ a:hover, a:focus {
   padding: 20px 80px;
   font-weight: bold;
   text-align: center;
-  background-color: #ff7300;
+  background-color: #15d600;
   color: white;
   transition: all 250ms ease-in-out;
-  border: 1px solid #f56e00; }
+  border: 1px solid #14cc00; }
 
 .color_button:hover, .color_button:focus {
   color: white;
-  background-color: #ff8f33; }
+  background-color: #23ff0a; }
 
 .white_row {
   text-align: center;
@@ -91,14 +92,18 @@ a:hover, a:focus {
     border-bottom: 1px solid #e0e0e0; }
   .white_row h4#the_PS, .white_row #the_fine_print {
     text-align: left; }
+  .white_row #the_fine_print {
+    font-size: 11px; }
 
 .light_grey_row {
   margin-top: 20px;
   padding: 40px 60px; }
   .light_grey_row li {
     list-style-type: none;
-    padding-top: 5px; }
-    .light_grey_row li .fa-chevron-right {
+    padding-top: 5px;
+    text-indent: -21px; }
+    .light_grey_row li .fa-check {
+      color: #d60000;
       margin-right: 5px; }
 
 .dark_grey_row {
