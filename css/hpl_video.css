@@ -34,10 +34,12 @@ h4 {
 
 a {
   color: #ff7300;
-  transition: all 250ms ease-in-out; }
+  transition: all 250ms ease-in-out;
+  text-decoration: none; }
 
 a:hover, a:focus {
-  color: #ff9d4d; }
+  color: #ff9d4d;
+  text-decoration: none; }
 
 .red {
   color: #d60000; }
@@ -63,6 +65,7 @@ a:hover, a:focus {
   display: hidden; }
 
 .color_button {
+  display: inline-block;
   margin: 10px 20px;
   padding: 20px 80px;
   font-weight: bold;
@@ -73,6 +76,7 @@ a:hover, a:focus {
   border: 1px solid #f56e00; }
 
 .color_button:hover, .color_button:focus {
+  color: white;
   background-color: #ff8f33; }
 
 .white_row {
