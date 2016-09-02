@@ -12,9 +12,9 @@ html, body {
   font: 18px "Open Sans", "Raleway", "Oswald"; }
 
 header {
-  height: 175px;
+  height: 160px;
   margin-bottom: 40px;
-  background: url(../img/hitting-performance-lab.jpg) no-repeat center center;
+  background: url(../img/hitting-performance-lab-01.jpg) no-repeat bottom center;
   background-size: cover;
   background-color: #ff7300; }
 
